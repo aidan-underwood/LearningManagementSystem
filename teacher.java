@@ -13,7 +13,16 @@ public class Teacher {
         return name;
     }
 
+    public int getID() {
+        return id;
+    }
+
+    public String getCourse() {
+        return course;
+    }
+
     public void setTeachName(String newName) {
         this.name = newName;
     }
+
 }

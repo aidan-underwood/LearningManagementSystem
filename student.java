@@ -10,4 +10,21 @@ public class Student {
             courses[i] = stuCourses[i];
         }
     }
+
+    public String getStuName() {
+        return name;
+    }
+
+    public int getID() {
+        return id;
+    }
+
+    public String[] getCourses() {
+        return courses;
+    }
+
+    public void setStuName(String newName) {
+        this.name = newName;
+    }
+
 }
